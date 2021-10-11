@@ -1,9 +1,11 @@
-import styles from './index.less'
+import { FC } from 'react'
 
-export default function IndexPage() {
+const Index: FC = () => {
   return (
     <div>
-      <h1 className={styles.title}>Page index</h1>
+      <h1>Umi Antd Tpl</h1>
     </div>
   )
 }
+
+export default Index
